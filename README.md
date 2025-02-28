@@ -1,16 +1,28 @@
-# prayer_time_app
+# Prayer Time App
 
-A new Flutter project.
+**Prayer Time App** is a mobile application designed to help users easily access prayer times for nearby mosques based on their location. The app allows imams to update prayer times for their mosques, and muqtadirs (users) can view prayer times for nearby mosques without logging in.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- **User-friendly Interface**: Clean and intuitive UI with modern design patterns.
+- **Prayer Times**: View daily prayer times (Fajr, Dhuhr, Asr, Maghrib, Isha) for nearby mosques.
+- **Nearby Mosque Locator**: The app finds and displays nearby mosques based on the user's current location.
+- **Mosque Information**: Includes mosque name, description, and location.
+- **Imam Dashboard**: Allows imams to update prayer times for their mosques and edit mosque details.
+- **Firebase Integration**: User authentication (for imams) and database management for prayer times, mosque details, and locations.
 
-A few resources to get you started if this is your first Flutter project:
+## Tech Stack
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- **Flutter**: Used for developing the mobile application.
+- **Firebase**: Provides backend services like authentication, database (Firestore), and storage.
+- **Google Maps API**: Used for location-based services (finding nearby mosques).
+- **Geolocator**: Used to fetch the user's current location.
+- **Geocoding**: Converts coordinates to a readable location name.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Installation
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/yourusername/prayer-time-app.git
+cd prayer-time-app
